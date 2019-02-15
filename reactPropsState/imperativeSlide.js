@@ -11,5 +11,8 @@ function createSlide(slide) {
   const slideElement = document.createElement('div')
 
   // TODO: Add a slide
-  const title = document.createElement('')
+  const title = document.createElement('h1')
+  title.innerHTML = SLIDE.title
+
+  return slideElement
 }
