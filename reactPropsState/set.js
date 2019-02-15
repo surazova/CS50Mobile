@@ -15,8 +15,8 @@ class Set {
   }
 
   // When someone tries to get the size, run this function
-  get.size() {
-
+  get size() {
+    return this.arr.length
   }
 }
 
