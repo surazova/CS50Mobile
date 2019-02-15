@@ -1,6 +1,6 @@
 // like log on addition or create new methods
 
-// Extends a set 
+// Extends a set that had previously existed, using the "super" keyword
 // First, run the original set's constructor
 class MySet extends Set {
   constructor(arr) {
