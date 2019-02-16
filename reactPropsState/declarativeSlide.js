@@ -16,5 +16,8 @@ function createSlide(slide) {
         {SLIDE.bullets.map(bullet => <li>{bullet}></li>)}
       </ul>
       </div>
+      
+      
+      
     </Slide>
   }
